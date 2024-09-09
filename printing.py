@@ -14,9 +14,10 @@ if x>y and x<0:
 else:
   print("эх, ну ты черт канешна, не ношол посхалку")
 z=input("Пароль для посхалки:")
-if z!=1234:
-  print("parol neverniy")
-else:
-  print("харош, угодал пасхалку еще одну")
+if z==1234:
+  print("харош, угодал пасхалку еще одну") 
   print("printing is everything")
+else:
+  print("parol neverniy")
+
 
